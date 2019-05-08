@@ -1,4 +1,10 @@
-import { IOClients, IOContext, MetricsAccumulator, SegmentData, ServiceContext } from '@vtex/api'
+import {
+  IOClients,
+  IOContext,
+  MetricsAccumulator,
+  SegmentData,
+  ServiceContext,
+} from '@vtex/api'
 
 import { CallcenterOperatorDataSource } from './dataSources/callcenterOperator'
 import { CatalogDataSource } from './dataSources/catalog'
@@ -141,5 +147,11 @@ declare global {
     paymentSystemName: string
     carNumber: string
     address: Address
+  }
+
+  interface IncomingFile {
+    filename: string
+    mimetype: string
+    encoding: string
   }
 }

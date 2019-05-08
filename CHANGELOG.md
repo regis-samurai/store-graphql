@@ -7,27 +7,42 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [2.73.1] - 2019-05-13
 ### Fixed
+
+- **_updateProfilePicture_** mutation.
+
+## [2.73.1] - 2019-05-13
+
+### Fixed
+
 - Adds missing facets fields back after schema breaking change
 
 ## [2.73.0] - 2019-05-13
+
 ### Changed
+
 - Translate terms (with `Messages`) before sending them to search api for `productSearch` and `facets` resolvers
 
 ## [2.72.2] - 2019-05-10
+
 ### Fixed
+
 - Remove comma from invalid characters of product search.
 
 ## [2.72.1] - 2019-05-09
+
 ### Fixed
+
 - Remove slugify on facets when computing selected property.
 
 ## [2.72.0] - 2019-05-09
+
 ### Added
+
 - Autocomplete field resolvers for internationalization
 
 ### Changed
+
 - scope from SEGMENT to PUBLIC for Brand related queries
 - Splits Deparment, Brand etc types from Facets
 - Product id as translation provider id
@@ -43,6 +58,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 
 - Slugify facets when checking if is selected.
+  ]
 
 ## [2.71.1] - 2019-05-07
 
